@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  19 APR 2015 17:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  19 APR 2015 23:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -395,24 +395,20 @@ Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 \c@ALC@depth=\count110
 \ALC@tlm=\skip46
 \algorithmicindent=\skip47
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/courier.sty
+Package: courier 2005/04/12 PSNFSS-v9.2a (WaS) 
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count111
+\float@exts=\toks23
+\float@box=\box28
+\@float@everytoks=\toks24
+\@floatcapt=\box29
 ) (./report4.aux
 
-LaTeX Warning: Label `fig:gull' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:gull' multiply defined.
-
-
-LaTeX Warning: Label `fig:tiger' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:tiger' multiply defined.
-
-
-LaTeX Warning: Label `fig:mouse' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:mouse' multiply defined.
+LaTeX Warning: Label `fig:animals' multiply defined.
 
 
 LaTeX Warning: Label `fig:animals' multiply defined.
@@ -430,67 +426,7 @@ LaTeX Warning: Label `fig:tiger' multiply defined.
 LaTeX Warning: Label `sub@fig:tiger' multiply defined.
 
 
-LaTeX Warning: Label `fig:mouse' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:mouse' multiply defined.
-
-
 LaTeX Warning: Label `fig:animals' multiply defined.
-
-
-LaTeX Warning: Label `fig:gull' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:gull' multiply defined.
-
-
-LaTeX Warning: Label `fig:tiger' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:tiger' multiply defined.
-
-
-LaTeX Warning: Label `fig:mouse' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:mouse' multiply defined.
-
-
-LaTeX Warning: Label `fig:animals' multiply defined.
-
-
-LaTeX Warning: Label `fig:gull' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:gull' multiply defined.
-
-
-LaTeX Warning: Label `fig:tiger' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:tiger' multiply defined.
-
-
-LaTeX Warning: Label `fig:mouse' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:mouse' multiply defined.
-
-
-LaTeX Warning: Label `fig:animals' multiply defined.
-
-
-LaTeX Warning: Label `fig:gull' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:gull' multiply defined.
-
-
-LaTeX Warning: Label `fig:tiger' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:tiger' multiply defined.
 
 
 LaTeX Warning: Label `fig:mouse' multiply defined.
@@ -504,31 +440,31 @@ LaTeX Warning: Label `fig:animals' multiply defined.
 )
 \openout1 = `report4.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
  (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count111
+\scratchcounter=\count112
 \scratchdimen=\dimen129
-\scratchbox=\box28
-\nofMPsegments=\count112
-\nofMParguments=\count113
-\everyMPshowfont=\toks23
-\MPscratchCnt=\count114
+\scratchbox=\box30
+\nofMPsegments=\count113
+\nofMParguments=\count114
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count115
 \MPscratchDim=\dimen130
-\MPnumerator=\count115
-\makeMPintoPDFobject=\count116
-\everyMPtoPDFconversion=\toks24
+\MPnumerator=\count116
+\makeMPintoPDFobject=\count117
+\everyMPtoPDFconversion=\toks26
 ) (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -608,200 +544,223 @@ e
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--47
+
+ []
+
 [1
 
 {/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (134.85693pt too wide) in paragraph at lines 73--74
-[]\OT1/cmr/m/n/10 A gen-eral out-line of the al-go-rithm that was used for this
- pa-per fol-low:                                                      
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 50.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+LaTeX Font Info:    Font shape `OT1/pcr/bx/n' in size <7> not available
+(Font)              Font shape `OT1/pcr/b/n' tried instead on input line 53.
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--63
+
  []
 
-[2]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 106.
 
- (/usr/local/texlive/2014/texmf-dist/tex/latex/base/omscmr.fd
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 116.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 106.
-
-<figures/5by5_nopolicy.png, id=20, 809.0225pt x 808.01875pt>
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 116.
+ [2]
+<figures/5by5_nopolicy.png, id=26, 809.0225pt x 808.01875pt>
 File: figures/5by5_nopolicy.png Graphic file (type png)
 
 <use figures/5by5_nopolicy.png>
-Package pdftex.def Info: figures/5by5_nopolicy.png used on input line 121.
+Package pdftex.def Info: figures/5by5_nopolicy.png used on input line 134.
 (pdftex.def)             Requested size: 190.34894pt x 190.10635pt.
 
-<figures/50by50_nopolicy.png, id=22, 806.01125pt x 806.01125pt>
+<figures/50by50_nopolicy.png, id=28, 806.01125pt x 806.01125pt>
 File: figures/50by50_nopolicy.png Graphic file (type png)
 
 <use figures/50by50_nopolicy.png>
-Package pdftex.def Info: figures/50by50_nopolicy.png used on input line 137.
+Package pdftex.def Info: figures/50by50_nopolicy.png used on input line 150.
 (pdftex.def)             Requested size: 190.34894pt x 190.34737pt.
  [3 <./figures/5by5_nopolicy.png>]
-<figures/5x5_viter_r1.png, id=28, 806.01125pt x 808.01875pt>
+<figures/5x5_viter_r1.png, id=33, 806.01125pt x 808.01875pt>
 File: figures/5x5_viter_r1.png Graphic file (type png)
 
 <use figures/5x5_viter_r1.png>
-Package pdftex.def Info: figures/5x5_viter_r1.png used on input line 157.
+Package pdftex.def Info: figures/5x5_viter_r1.png used on input line 170.
 (pdftex.def)             Requested size: 114.21051pt x 114.4904pt.
 
-<figures/5x5_viter_r2.png, id=29, 806.01125pt x 808.01875pt>
+<figures/5x5_viter_r2.png, id=34, 806.01125pt x 808.01875pt>
 File: figures/5x5_viter_r2.png Graphic file (type png)
 
 <use figures/5x5_viter_r2.png>
-Package pdftex.def Info: figures/5x5_viter_r2.png used on input line 167.
+Package pdftex.def Info: figures/5x5_viter_r2.png used on input line 180.
 (pdftex.def)             Requested size: 114.21051pt x 114.4904pt.
 
-<figures/5x5_viter_r3.png, id=30, 805.0075pt x 806.01125pt>
+<figures/5x5_viter_r3.png, id=35, 805.0075pt x 806.01125pt>
 File: figures/5x5_viter_r3.png Graphic file (type png)
 
 <use figures/5x5_viter_r3.png>
-Package pdftex.def Info: figures/5x5_viter_r3.png used on input line 177.
+Package pdftex.def Info: figures/5x5_viter_r3.png used on input line 190.
 (pdftex.def)             Requested size: 114.21051pt x 114.35355pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<figures/5x5_piter_r1.png, id=31, 806.01125pt x 806.01125pt>
+ [4 <./figures/50by50_nopolicy.png>]
+<figures/5x5_piter_r1.png, id=40, 806.01125pt x 806.01125pt>
 File: figures/5x5_piter_r1.png Graphic file (type png)
 
 <use figures/5x5_piter_r1.png>
-Package pdftex.def Info: figures/5x5_piter_r1.png used on input line 191.
+Package pdftex.def Info: figures/5x5_piter_r1.png used on input line 208.
 (pdftex.def)             Requested size: 114.21051pt x 114.20596pt.
 
-<figures/5x5_piter_r2.png, id=32, 807.015pt x 807.015pt>
+<figures/5x5_piter_r2.png, id=41, 807.015pt x 807.015pt>
 File: figures/5x5_piter_r2.png Graphic file (type png)
 
 <use figures/5x5_piter_r2.png>
-Package pdftex.def Info: figures/5x5_piter_r2.png used on input line 201.
+Package pdftex.def Info: figures/5x5_piter_r2.png used on input line 218.
 (pdftex.def)             Requested size: 114.21051pt x 114.20041pt.
 
-<figures/5x5_piter_r3.png, id=33, 805.0075pt x 804.00375pt>
+<figures/5x5_piter_r3.png, id=42, 805.0075pt x 804.00375pt>
 File: figures/5x5_piter_r3.png Graphic file (type png)
 
 <use figures/5x5_piter_r3.png>
-Package pdftex.def Info: figures/5x5_piter_r3.png used on input line 211.
+Package pdftex.def Info: figures/5x5_piter_r3.png used on input line 228.
 (pdftex.def)             Requested size: 114.21051pt x 114.06873pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<figures/5x5_qlearn_r1.png, id=34, 806.01125pt x 806.01125pt>
+ [5 <./figures/5x5_viter_r1.png> <./figures/5x5_viter_r2.png> <./figures/5x5_vi
+ter_r3.png> <./figures/5x5_piter_r1.png> <./figures/5x5_piter_r2.png> <./figure
+s/5x5_piter_r3.png>]
+<figures/5x5_qlearn_r1.png, id=54, 806.01125pt x 806.01125pt>
 File: figures/5x5_qlearn_r1.png Graphic file (type png)
 
 <use figures/5x5_qlearn_r1.png>
-Package pdftex.def Info: figures/5x5_qlearn_r1.png used on input line 225.
+Package pdftex.def Info: figures/5x5_qlearn_r1.png used on input line 245.
 (pdftex.def)             Requested size: 114.21051pt x 114.20596pt.
 
-<figures/5x5_qlearn_r2.png, id=35, 807.015pt x 807.015pt>
+<figures/5x5_qlearn_r2.png, id=55, 807.015pt x 807.015pt>
 File: figures/5x5_qlearn_r2.png Graphic file (type png)
 
 <use figures/5x5_qlearn_r2.png>
-Package pdftex.def Info: figures/5x5_qlearn_r2.png used on input line 235.
+Package pdftex.def Info: figures/5x5_qlearn_r2.png used on input line 255.
 (pdftex.def)             Requested size: 114.21051pt x 114.20041pt.
 
-<figures/5x5_qlearn_r3.png, id=36, 807.015pt x 806.01125pt>
+<figures/5x5_qlearn_r3.png, id=56, 807.015pt x 806.01125pt>
 File: figures/5x5_qlearn_r3.png Graphic file (type png)
 
 <use figures/5x5_qlearn_r3.png>
-Package pdftex.def Info: figures/5x5_qlearn_r3.png used on input line 245.
+Package pdftex.def Info: figures/5x5_qlearn_r3.png used on input line 265.
 (pdftex.def)             Requested size: 114.21051pt x 114.05838pt.
 
+<figures/50x50_v_r1.png, id=57, 921.4425pt x 943.525pt>
+File: figures/50x50_v_r1.png Graphic file (type png)
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+<use figures/50x50_v_r1.png>
+Package pdftex.def Info: figures/50x50_v_r1.png used on input line 290.
+(pdftex.def)             Requested size: 114.21051pt x 116.94693pt.
 
-<figures/50x50_viter_r1.png, id=37, 804.00375pt x 806.01125pt>
-File: figures/50x50_viter_r1.png Graphic file (type png)
+<figures/50x50_v_r2.png, id=58, 921.4425pt x 943.525pt>
+File: figures/50x50_v_r2.png Graphic file (type png)
 
-<use figures/50x50_viter_r1.png>
-Package pdftex.def Info: figures/50x50_viter_r1.png used on input line 261.
-(pdftex.def)             Requested size: 114.21051pt x 114.48883pt.
-File: figures/5x5_viter_r2.png Graphic file (type png)
- <use figures/5x5_viter_r2.png>
-Package pdftex.def Info: figures/5x5_viter_r2.png used on input line 271.
-(pdftex.def)             Requested size: 114.21051pt x 114.4904pt.
-File: figures/5x5_viter_r3.png Graphic file (type png)
+<use figures/50x50_v_r2.png>
+Package pdftex.def Info: figures/50x50_v_r2.png used on input line 300.
+(pdftex.def)             Requested size: 114.21051pt x 116.94693pt.
 
-<use figures/5x5_viter_r3.png>
-Package pdftex.def Info: figures/5x5_viter_r3.png used on input line 281.
-(pdftex.def)             Requested size: 114.21051pt x 114.35355pt.
+<figures/50x50_v_r3.png, id=59, 921.4425pt x 943.525pt>
+File: figures/50x50_v_r3.png Graphic file (type png)
 
+<use figures/50x50_v_r3.png>
+Package pdftex.def Info: figures/50x50_v_r3.png used on input line 310.
+(pdftex.def)             Requested size: 114.21051pt x 116.94693pt.
+ [6 <./figures/5x5_qlearn_r1.png> <./figures/5x5_qlearn_r2.png> <./figures/5x5_
+qlearn_r3.png>]
+<figures/50x50_p_r1.png, id=66, 921.4425pt x 943.525pt>
+File: figures/50x50_p_r1.png Graphic file (type png)
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+<use figures/50x50_p_r1.png>
+Package pdftex.def Info: figures/50x50_p_r1.png used on input line 326.
+(pdftex.def)             Requested size: 114.21051pt x 116.94693pt.
 
-<figures/50x50_piter_r1.png, id=38, 806.01125pt x 806.01125pt>
-File: figures/50x50_piter_r1.png Graphic file (type png)
+<figures/50x50_p_r2.png, id=67, 921.4425pt x 943.525pt>
+File: figures/50x50_p_r2.png Graphic file (type png)
 
-<use figures/50x50_piter_r1.png>
-Package pdftex.def Info: figures/50x50_piter_r1.png used on input line 295.
-(pdftex.def)             Requested size: 114.21051pt x 114.20596pt.
-File: figures/5x5_piter_r2.png Graphic file (type png)
- <use figures/5x5_piter_r2.png>
-Package pdftex.def Info: figures/5x5_piter_r2.png used on input line 305.
-(pdftex.def)             Requested size: 114.21051pt x 114.20041pt.
-File: figures/5x5_piter_r3.png Graphic file (type png)
+<use figures/50x50_p_r2.png>
+Package pdftex.def Info: figures/50x50_p_r2.png used on input line 336.
+(pdftex.def)             Requested size: 114.21051pt x 116.94693pt.
 
-<use figures/5x5_piter_r3.png>
-Package pdftex.def Info: figures/5x5_piter_r3.png used on input line 315.
-(pdftex.def)             Requested size: 114.21051pt x 114.06873pt.
+<figures/50x50_p_r3.png, id=68, 921.4425pt x 943.525pt>
+File: figures/50x50_p_r3.png Graphic file (type png)
 
+<use figures/50x50_p_r3.png>
+Package pdftex.def Info: figures/50x50_p_r3.png used on input line 346.
+(pdftex.def)             Requested size: 114.21051pt x 116.94693pt.
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+<figures/50x50_q_r1.png, id=69, 921.4425pt x 943.525pt>
+File: figures/50x50_q_r1.png Graphic file (type png)
 
-File: figures/5x5_qlearn_r1.png Graphic file (type png)
-<use figures/5x5_qlearn_r1.png>
-Package pdftex.def Info: figures/5x5_qlearn_r1.png used on input line 329.
-(pdftex.def)             Requested size: 114.21051pt x 114.20596pt.
-File: figures/5x5_qlearn_r2.png Graphic file (type png)
- <use figures/5x5_qlearn_r2.png>
-Package pdftex.def Info: figures/5x5_qlearn_r2.png used on input line 339.
-(pdftex.def)             Requested size: 114.21051pt x 114.20041pt.
-File: figures/5x5_qlearn_r3.png Graphic file (type png)
+<use figures/50x50_q_r1.png>
+Package pdftex.def Info: figures/50x50_q_r1.png used on input line 362.
+(pdftex.def)             Requested size: 114.21051pt x 116.94693pt.
 
-<use figures/5x5_qlearn_r3.png>
-Package pdftex.def Info: figures/5x5_qlearn_r3.png used on input line 349.
-(pdftex.def)             Requested size: 114.21051pt x 114.05838pt.
+<figures/50x50_q_r2.png, id=70, 921.4425pt x 943.525pt>
+File: figures/50x50_q_r2.png Graphic file (type png)
 
+<use figures/50x50_q_r2.png>
+Package pdftex.def Info: figures/50x50_q_r2.png used on input line 372.
+(pdftex.def)             Requested size: 114.21051pt x 116.94693pt.
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+<figures/50x50_q_r3.png, id=71, 921.4425pt x 943.525pt>
+File: figures/50x50_q_r3.png Graphic file (type png)
 
-[4 <./figures/50by50_nopolicy.png>] [5 <./figures/5x5_viter_r1.png> <./figures/
-5x5_viter_r2.png> <./figures/5x5_viter_r3.png> <./figures/5x5_piter_r1.png> <./
-figures/5x5_piter_r2.png> <./figures/5x5_piter_r3.png> <./figures/5x5_qlearn_r1
-.png> <./figures/5x5_qlearn_r2.png> <./figures/5x5_qlearn_r3.png>] [6 <./figure
-s/50x50_viter_r1.png> <./figures/50x50_piter_r1.png>] (./report4.aux)
+<use figures/50x50_q_r3.png>
+Package pdftex.def Info: figures/50x50_q_r3.png used on input line 382.
+(pdftex.def)             Requested size: 114.21051pt x 116.94693pt.
+ [7 <./figures/50x50_v_r1.png> <./figures/50x50_v_r2.png> <./figures/50x50_v_r3
+.png> <./figures/50x50_p_r1.png> <./figures/50x50_p_r2.png> <./figures/50x50_p_
+r3.png>] [8 <./figures/50x50_q_r1.png> <./figures/50x50_q_r2.png> <./figures/50
+x50_q_r3.png>] (./report4.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4331 strings out of 493117
- 63543 string characters out of 6135433
- 231548 words of memory out of 5000000
- 7720 multiletter control sequences out of 15000+600000
- 10506 words of font info for 38 fonts, out of 8000000 for 9000
+ 4489 strings out of 493117
+ 66100 string characters out of 6135433
+ 231172 words of memory out of 5000000
+ 7856 multiletter control sequences out of 15000+600000
+ 11536 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,7n,38p,601b,486s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
-/usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
-usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></us
-r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
-local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/lo
-cal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/loca
-l/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/t
-exlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
-xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texl
-ive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texliv
-e/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/
-2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on report4.pdf (6 pages, 891285 bytes).
+ 38i,7n,38p,740b,545s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/te
+xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/tex
+live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texl
+ive/2014/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/local/t
+exlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
+xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texl
+ive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texliv
+e/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/
+2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/20
+14/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2014
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2014/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2014/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2014/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2014/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2014/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2014/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2014/texmf-dist/fo
+nts/type1/urw/courier/ucrb8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type
+1/urw/courier/ucrr8a.pfb>
+Output written on report4.pdf (8 pages, 2209083 bytes).
 PDF statistics:
- 106 PDF objects out of 1000 (max. 8388607)
- 57 compressed objects within 1 object stream
+ 149 PDF objects out of 1000 (max. 8388607)
+ 79 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 66 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 101 words of extra memory for PDF output out of 10000 (max. 10000000)
 

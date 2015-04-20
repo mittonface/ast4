@@ -182,17 +182,19 @@ class RLMaze(object):
         return self.maze.shape[1] * x + y
         
     
-    def draw_maze(self, policy=None):
+    def draw_maze(self, policy=None, title=None):
         master = Tk()
         DRAWING_HEIGHT = 800
         DRAWING_WIDTH = 800
-        num_horizontal = maze.maze.shape[1]
-        num_vertical = maze.maze.shape[0]     
+        num_horizontal = self.maze.shape[1]
+        num_vertical = self.maze.shape[0]
         
         BOX_WIDTH = DRAWING_WIDTH // num_horizontal
         BOX_HEIGHT = DRAWING_HEIGHT // num_vertical
         
         w = Canvas(master, width=DRAWING_HEIGHT, height=DRAWING_WIDTH)
+        if title is not None:
+            master.wm_title(title)
         w.pack()
 
         # draw the empty grid
@@ -265,7 +267,7 @@ class RLMaze(object):
                     
                     # There are some cases where there are no valid moves from the start
                     # position. This trips things up. So break
-                    if maze.stuck_state(s):
+                    if self.stuck_state(s):
                         break
             
                     # choose an action from the current state
@@ -278,7 +280,7 @@ class RLMaze(object):
                     new_state = self.simple_move(s, action)
                     
                     # get the reward for this new state
-                    if new_state == goal:
+                    if new_state == self.goal:
                         r = R[0]
                     elif self.maze[new_state[0]][new_state[1]]==2:
                         r = R[2]
@@ -303,7 +305,9 @@ class RLMaze(object):
 
                     # if there was no significant changes in Q, break.
                     if np.allclose(old_q, Q, 0.0001, 0.0001):
-                        break 
+                        break
+
+        print "Return?"
         return Q
         
     def simple_move(self, pos, action):
@@ -369,8 +373,10 @@ class RLMaze(object):
         """
         current_position = self.start
         current_reward = 0
+        iter = 0
         
         while current_position != self.goal:
+            iter += 1
             state_num = self.position_to_state(current_position)
             
             # look up in the policy what to do at this position
@@ -384,7 +390,8 @@ class RLMaze(object):
                 current_reward += self.reward_vals[2]
             elif self.maze[current_position[0]][current_position[1]] == 3:
                 current_reward += self.reward_vals[0]
-        
+            if current_reward > 99999 or iter > 99999:
+                return 99999
 
         return current_reward
 
@@ -399,59 +406,52 @@ from pybrain.rl.learners import Q
 from pybrain.rl.learners.valuebased import ActionValueTable
 
 from Tkinter import *
+def run_maze(maze, title=""):
+    T = maze.get_transitions()
+    R = maze.get_rewards()
+    discount = 0.90
 
-themaze = np.asarray([
-        [0,1,0,0,0],
-        [0,1,0,2,0],
-        [0,2,0,1,0],
-        [0,1,0,1,0],
-        [0,0,0,1,3]
-        
-    ])
-goal = (4,4)
-start = (0,0)
+    value_iteration = ValueIteration(T, R, discount)
+    value_iteration.run()
+    print "VITER REWARD", maze.find_reward(value_iteration.policy)
+    print "VITER TIME", value_iteration.time
+    print "VITER ITERS", value_iteration.iter
+    maze.draw_maze(value_iteration.policy, title=title+"v")
+
+    policy_iteration = PolicyIteration(T,R, discount)
+    policy_iteration.run()
+    print "PITER REWARD", maze.find_reward(policy_iteration.policy)
+    print "PITER TIME", policy_iteration.time
+    print "PITER ITERS", policy_iteration.iter
+    maze.draw_maze(policy_iteration.policy, title=title+'p')
+
+
+    s = time.time()
+    Q = maze.qlearn()
+    n = time.time()
+    q_policy = []
+    for state in Q:
+        q_policy.append(np.argmax(state))
+
+    maze.draw_maze(q_policy, title=title+'q')
+    print "Q LEARN", maze.find_reward(q_policy)
+    print "Q LEARN TIME", (n-s)
+    print "Q ITERS", maze.q_iters
+
 
 rewards1 = [1000, -0.05, -3]
 rewards2 = [1000, -5, -20]
 rewards3 = [0, 1, -2]
-maze = RLMaze(R=rewards2)
+maze1 = RLMaze(R=rewards1)
+maze2 = RLMaze(R=rewards2)
+maze3 = RLMaze(R=rewards3)
 # maze = RLMaze(maze=themaze, goal=goal, start=start, R=rewards3)
 # maze.draw_maze()
 
 
-
-T = maze.get_transitions()
-R = maze.get_rewards()
-discount = 0.90
-
-value_iteration = ValueIteration(T, R, discount)
-value_iteration.run()
-print "VITER REWARD", maze.find_reward(value_iteration.policy)
-print "VITER TIME", value_iteration.time
-print "VITER ITERS", value_iteration.iter
-maze.draw_maze(value_iteration.policy)
-
-policy_iteration = PolicyIteration(T,R, discount)
-policy_iteration.run()
-print "PITER REWARD", maze.find_reward(policy_iteration.policy)
-print "PITER TIME", policy_iteration.time
-print "PITER ITERS", policy_iteration.iter
-maze.draw_maze(policy_iteration.policy)
-
-
-s = time.time()
-Q = maze.qlearn()
-n = time.time()
-q_policy = []
-for state in Q:
-    q_policy.append(np.argmax(state))
-    
-print "Q LEARN", maze.find_reward(q_policy)
-print "Q LEARN TIME", (n-s)
-print "Q ITERS", maze.q_iters
-maze.draw_maze(q_policy)
-
-# get policy from Q
+# run_maze(maze1, title='r1')
+# run_maze(maze2, title='r2')
+run_maze(maze3, title='r3')
 
 
 

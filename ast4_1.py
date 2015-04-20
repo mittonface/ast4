@@ -438,22 +438,18 @@ def run_maze(maze, title=""):
     print "Q LEARN TIME", (n-s)
     print "Q ITERS", maze.q_iters
 
-themaze = np.asarray([
-        [0,1,0,0,0],
-        [0,1,0,2,0],
-        [0,2,0,1,0],
-        [0,1,0,1,0],
-        [0,0,0,1,3]
 
-    ])
-goal = (4,4)
-start = (0,0)
-
-maze = RLMaze(maze=themaze, goal=goal, start=start)
+rewards1 = [1000, -0.05, -3]
+rewards2 = [1000, -5, -20]
+rewards3 = [0, 1, -2]
+maze1 = RLMaze(R=rewards1)
+maze2 = RLMaze(R=rewards2)
+maze3 = RLMaze(R=rewards3)
+# maze = RLMaze(maze=themaze, goal=goal, start=start, R=rewards3)
 # maze.draw_maze()
 
 
-run_maze(maze, title='r1')
+run_maze(maze1, title='r1')
 # run_maze(maze2, title='r2')
 # run_maze(maze3, title='r3')
 

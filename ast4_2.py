@@ -8,7 +8,6 @@ import time
 class RLMaze(object):
     
     def __init__(self, maze=None, start=None, goal=None, R=None):
-        print goal
         if maze is None:
             self.maze = np.asarray([
                 [0,1,0,1,0,1,1,1,0,1,1,0,1,0,0,0,1,1,0,1,1,1,0,1,1,0,0,0,1,1,1,0,1,1,0,0,0,0,0,0,1,1,0,1,1,0,0,1,1,0],
@@ -373,10 +372,9 @@ class RLMaze(object):
         """
         current_position = self.start
         current_reward = 0
-        iters = 0
-        
+        iter = 0
         while current_position != self.goal:
-            iters += 1
+            iter+=1
             state_num = self.position_to_state(current_position)
             
             # look up in the policy what to do at this position
@@ -390,7 +388,7 @@ class RLMaze(object):
                 current_reward += self.reward_vals[2]
             elif self.maze[current_position[0]][current_position[1]] == 3:
                 current_reward += self.reward_vals[0]
-            if iters > 100000:
+            if current_reward > 99999 or iter == 99999:
                 return 99999
 
         return current_reward
@@ -438,23 +436,20 @@ def run_maze(maze, title=""):
     print "Q LEARN TIME", (n-s)
     print "Q ITERS", maze.q_iters
 
-themaze = np.asarray([
-        [0,1,0,0,0],
-        [0,1,0,2,0],
-        [0,2,0,1,0],
-        [0,1,0,1,0],
-        [0,0,0,1,3]
 
-    ])
-goal = (4,4)
-start = (0,0)
 
-maze = RLMaze(maze=themaze, goal=goal, start=start)
+rewards1 = [1000, -0.05, -3]
+rewards2 = [1000, -5, -20]
+rewards3 = [0, 1, -2]
+maze1 = RLMaze(R=rewards1)
+maze2 = RLMaze(R=rewards2)
+maze3 = RLMaze(R=rewards3)
+# maze = RLMaze(maze=themaze, goal=goal, start=start, R=rewards3)
 # maze.draw_maze()
 
 
-run_maze(maze, title='r1')
-# run_maze(maze2, title='r2')
+# run_maze(maze1, title='r1')
+run_maze(maze2, title='r2')
 # run_maze(maze3, title='r3')
 
 
